@@ -47,21 +47,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex-col mb-10 md:mb-48 arrangement flex flex-col items-center lg:mb-0">
+              <div className=" mb-10 md:mb-48 arrangement flex flex-col items-center lg:mb-0">
                 <div className="md:mb-40 relative flex flex-col items-center lg:mb-3">
                   <p className="md:text-10xl text-8.5xl null lg:text-9xl xl:text-10xl font-light relative">
                     24000
                   </p>
-                  <div className="absolute">
-                    <img
-                      sizes="100vw"
-                      clientHints="true"
-                      className="ml-0 w-full"
-                      responsivePlaceholder="blank"
-                      alt="icons"
-                      data-src="https://res.cloudinary.com/rocktech/image/upload/c_scale,dpr_auto,f_png,q_auto,w_auto/24000_Tons12_01x_1_2_3fdaa88205"
-                    />
-                  </div>
+                  <div className="absolute"></div>
                 </div>
                 <div className="mt-2 relative break-words">
                   <div className="text-wide font-semibold lg:text-base text-xl uppercase pt-8">
@@ -80,16 +71,7 @@ export default function Home() {
                   <p className="md:text-20xl text-12xl null lg:text-9xl xl:text-10xl font-light relative">
                     50
                   </p>
-                  <div className="absolute ">
-                    <img
-                      sizes="100vw"
-                      clientHints="true"
-                      className="ml-0 w-full"
-                      responsivePlaceholder="blank"
-                      alt="icons"
-                      data-src="https://res.cloudinary.com/rocktech/image/upload/c_scale,dpr_auto,f_png,q_auto,w_auto/Recyling02_01_1_2_b332f016fb"
-                    />
-                  </div>
+                  <div className="absolute "></div>
                 </div>
                 <div className="mt-2 relative break-words">
                   <div className="text-wide font-semibold lg:text-base text-xl uppercase pt-8">

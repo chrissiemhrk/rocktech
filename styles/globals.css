@@ -19,6 +19,27 @@
   background-repeat: no-repeat;
   height: 60vh;
 }
+.heroCareer {
+  background-image: url("../public/images/heroCareer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.bottomCareer {
+  background-image: url("../public/images/careerPeople.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
 
 @tailwind base;
 @tailwind components;

@@ -5,6 +5,13 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+.heroAbout {
+  background-image: url("../public/images/heroAbout.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
 
 @tailwind base;
 @tailwind components;

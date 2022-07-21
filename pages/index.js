@@ -89,7 +89,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-green-500 text-white px-3 lg:px-3 lg:px-32 py-10">
+        <section className="bg-green-500 text-white px-3  lg:px-32 py-10">
           <p className="pl-20 uppercase">Who we are</p>
           <p className="text-3xl lg:text-5xl font-thin leading-snug">
             We are working to create an energy-efficient future, today. We are
@@ -101,7 +101,7 @@ export default function Home() {
             and reusing lithium for a cleaner future.
           </p>
         </section>
-        <section className="content-wrapper lg:py-32 py-18 px-3 lg:px-3 lg:px-32">
+        <section className="content-wrapper lg:py-32 py-18 px-3  lg:px-32">
           <div className="font-primary uppercase flex items-center justify-between overflow-x-hidden mb-5">
             <div className="lg:text-7.5xl text-5.5xl font-light pb-2 font-primary capitalize">
               <h1 className="text-3xl lg:text-5xl tracking-wide">News</h1>

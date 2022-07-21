@@ -64,12 +64,12 @@ const About = () => {
             Dirk Habecke <br /> Chairman of the Board
           </p>
         </section>
-        <section className="grid-section relative white-background h-60 lg:h-96 lg:mb-10 lg:px-3 lg:px-32">
+        <section className="grid-section relative white-background h-60 lg:h-96 lg:mb-10  lg:px-32">
           <div className="absolute -top-2/3 lg:left-1/4">
             <Image src={AboutImg5} width={900} height={600} alt="" />
           </div>
         </section>
-        <section className="px-3 lg:px-3 lg:px-32 my-32">
+        <section className="px-3  lg:px-32 my-32">
           <h2 className="pl-20 uppercase">Sustainability & Transparency</h2>
           <p className="text-3xl lg:text-5xl font-thin leading-snug">
             We put green power into your batteries: based in Germany, our

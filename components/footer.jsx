@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -68,33 +69,19 @@ const Footer = () => {
         </div>
         <div className="font-light tracking-widest">
           <ul className="text-2xl leading-snug">
-            <li>
-              <a href="/why">Why Rock Tech</a>
-            </li>
-            <li>
-              <a href="/product">Product</a>
-            </li>
-            <li>
-              <a href="/sustainability">Sustainability</a>
-            </li>
-            <li>
-              <a href="/investors">Investors</a>
-            </li>
-            <li>
-              <a href="/career">Career</a>
-            </li>
-            <li>
-              <a href="/cautionary-statement">Cautionary Statement</a>
-            </li>
-            <li>
-              <a href="/about-us">About us</a>
-            </li>
-            <li>
-              <a href="/press">Press</a>
-            </li>
-            <li>
-              <a href="/news">News</a>
-            </li>
+            <li>Why Rock Tech</li>
+            <li>Product</li>
+            <Link href="/sustainability">
+              <a>Sustainability</a>
+            </Link>
+            <li>Investors</li>
+            <Link href="/career">
+              <a>Career</a>
+            </Link>
+            <li>Cautionary Statement</li>
+            <li>About us</li>
+            <li>Press</li>
+            <li>News</li>
           </ul>
           <div className="pt-9">
             <ul className="text-base font-semibold uppercase leading-snug">

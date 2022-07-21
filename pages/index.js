@@ -4,6 +4,7 @@ import Header from "../components/header";
 import TimesImg from "../public/images/times.png";
 import TonsImg from "../public/images/tons.png";
 import RecyclingImg from "../public/images/recycling.png";
+import News1 from "../public/images/news-1.png";
 export default function Home() {
   return (
     <>
@@ -106,10 +107,10 @@ export default function Home() {
             and reusing lithium for a cleaner future.
           </p>
         </section>
-        <section className="content-wrapper lg:py-36 py-18">
-          <div className="font-primary uppercase flex items-center justify-between overflow-x-hidden">
+        <section className="content-wrapper lg:py-32 py-18 px-32">
+          <div className="font-primary uppercase flex items-center justify-between overflow-x-hidden mb-5">
             <div className="lg:text-7.5xl text-5.5xl font-light pb-2 font-primary capitalize">
-              <h1>News</h1>
+              <h1 className="text-5xl tracking-wide">News</h1>
             </div>
             <div className="flex">
               <div className="mr-4 lg:mr-10 cursor-pointer max-w-max">
@@ -160,6 +161,28 @@ export default function Home() {
                   <path d="M1 39l18-18.75L1 1" stroke="currentColor"></path>
                 </svg>
               </div>
+            </div>
+          </div>
+          <div className="border-y-2 border-black flex items-center py-10 justify-between">
+            <div className="w-1/2">
+              <Image src={News1} width={650} height={400} alt="" />
+              <p className="font-medium">
+                Vancouver, BC, Canada – May 25, 2021
+              </p>
+              <p className="text-4xl font-thin">
+                Rock Tech Chairman & CEO, Dirk Harbecke, Interviewed by the
+                Investing News Network
+              </p>
+            </div>
+            <div className="w-1/2">
+              <Image src={News1} width={650} height={400} alt="" />
+              <p className="font-medium">
+                Vancouver, BC, Canada – May 25, 2021
+              </p>
+              <p className="text-4xl font-thin">
+                Rock Tech Chairman & CEO, Dirk Harbecke, Interviewed by the
+                Investing News Network
+              </p>
             </div>
           </div>
           <span className="whitespace-nowrap align-top overflow-hidden md:border-b-2 md:border-t-2 border-t border-b border-solid border-secondary" />

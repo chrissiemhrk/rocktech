@@ -1,6 +1,9 @@
+import Image from "next/image";
 import React from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import Career1 from "../public/images/career-1.png";
+import Career2 from "../public/images/career-2.png";
 
 const Sustainability = () => {
   return (
@@ -8,13 +11,19 @@ const Sustainability = () => {
       <Header />
       <main>
         <section className="heroCareer px-52 text-white"></section>
-        <section className="px-32 mt-10">
+        <section className="px-3 lg:px-32 mt-10 mb-96">
           <h2 className="pl-20 uppercase">Career</h2>
           <p className="text-8xl font-thin">
             Work with us to zero out emissions
           </p>
         </section>
-        <section className="px-32 my-32 bg-green-500 text-white py-10">
+        <section className="px-3 lg:px-32 my-32 bg-green-500 text-white py-52 relative">
+          <div className="absolute w-96 h-96 -top-40 left-1/2">
+            <Image src={Career2} width={800} height={700} alt="" />
+          </div>
+          <div className="absolute w-80 h-96 -top-80 left-1/3">
+            <Image src={Career1} width={500} height={700} alt="" />
+          </div>
           <p className="text-3xl font-thin leading-snug">
             You care about cutting down carbon emissions? You like the thought
             of being part of the green energy revolution? You can see yourself
@@ -23,7 +32,7 @@ const Sustainability = () => {
             goal? Then come work with us to rewrite the rules of this economy.
           </p>
         </section>
-        <section className="px-32 my-32 ">
+        <section className="px-3 lg:px-32 my-32 ">
           <h2 className="text-6xl font-thin leading-snug mb-8">
             Open positions
           </h2>

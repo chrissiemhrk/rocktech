@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <Header />
       <main className="flex-grow white-background">
-        <section className="hero px-52 text-white">
-          <div className="m-0 absolute top-1/2">
+        <section className="hero lg:px-52 px-3 text-white">
+          <div className="m-0 absolute lg:top-1/2 top-1/4">
             <h1 className="text-6xl tracking-widest">
               <code className="bg-green-500">Powering</code> the
               <br />
@@ -29,21 +29,19 @@ export default function Home() {
         <section className="grid-section relative white-background">
           <div className="content-wrapper font-primary pt-9 pb-8 md:pb-20">
             <div className="md:grid-cols-1 mt-5 lg:mt-20 home-grid grid three-grid items-baseline font-primary text-center h-auto grid-flow-row auto-cols-max grid-cols-1 lg:grid-cols-3 place-items-center w-full lg:my-0">
-              <div className="mb-10 md:mb-48 arrangement flex flex-col items-center lg:mb-0">
+              <div className="mb-10 md:mb-48 flex flex-col items-center lg:mb-0">
                 <div className="md:mb-40 relative flex flex-col items-center lg:mb-3">
-                  <p className="md:text-20xl text-12xl null lg:text-9xl xl:text-10xl font-light relative">
-                    5
-                  </p>
+                  <p className=" text-9xl font-light relative">5</p>
                   <div className="absolute w-40 top-12">
                     <Image src={TimesImg} width={500} height={500} alt="" />
                   </div>
                 </div>
                 <div className="mt-12 relative">
-                  <div className="text-wide font-semibold lg:text-base text-xl uppercase pt-8">
+                  <div className="text-wide font-semibold text-xl uppercase pt-8">
                     Times
                   </div>
                   <div>
-                    <div className="md:text-7.2xl md:w-full font-light text-2xl w-full tracking-wide lg:text-2xl max-w-xs mx-auto">
+                    <div className=" font-light text-2xl w-full tracking-wide lg:text-2xl max-w-xs mx-auto">
                       <p>production capacity</p>
                       <p>by 2030</p>
                     </div>
@@ -52,9 +50,7 @@ export default function Home() {
               </div>
               <div className=" mb-10 md:mb-48 arrangement flex flex-col items-center lg:mb-0">
                 <div className="md:mb-40 relative flex flex-col items-center lg:mb-3">
-                  <p className="md:text-10xl text-8.5xl null lg:text-9xl xl:text-10xl font-light relative">
-                    24000
-                  </p>
+                  <p className="text-9xl font-light relative">24000</p>
                   <div className="absolute w-40 top-12">
                     <Image src={TonsImg} width={500} height={500} alt="" />
                   </div>
@@ -73,9 +69,7 @@ export default function Home() {
               </div>
               <div className=" mb-10 md:mb-48 arrangement flex flex-col items-center lg:mb-0">
                 <div className="md:mb-40 relative flex flex-col items-center lg:mb-3">
-                  <p className="md:text-20xl text-12xl null lg:text-9xl xl:text-10xl font-light relative">
-                    50
-                  </p>
+                  <p className="text-9xl font-light relative">50</p>
                   <div className="absolute w-40 top-12">
                     <Image src={RecyclingImg} width={500} height={500} alt="" />
                   </div>
@@ -95,9 +89,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-green-500 text-white px-32 py-10">
+        <section className="bg-green-500 text-white px-3 lg:px-3 lg:px-32 py-10">
           <p className="pl-20 uppercase">Who we are</p>
-          <p className="text-5xl font-thin leading-snug">
+          <p className="text-3xl lg:text-5xl font-thin leading-snug">
             We are working to create an energy-efficient future, today. We are
             investing upstream, in our own mineral project in Canada, as well as
             investing downstream, with our first planned lithium hydroxide
@@ -107,10 +101,10 @@ export default function Home() {
             and reusing lithium for a cleaner future.
           </p>
         </section>
-        <section className="content-wrapper lg:py-32 py-18 px-32">
+        <section className="content-wrapper lg:py-32 py-18 px-3 lg:px-3 lg:px-32">
           <div className="font-primary uppercase flex items-center justify-between overflow-x-hidden mb-5">
             <div className="lg:text-7.5xl text-5.5xl font-light pb-2 font-primary capitalize">
-              <h1 className="text-5xl tracking-wide">News</h1>
+              <h1 className="text-3xl lg:text-5xl tracking-wide">News</h1>
             </div>
             <div className="flex">
               <div className="mr-4 lg:mr-10 cursor-pointer max-w-max">
@@ -163,8 +157,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="border-y-2 border-black flex items-center py-10 justify-between">
-            <div className="w-1/2">
+          <div className="border-y-2 border-black flex flex-col lg:flex-row items-center py-10 justify-between">
+            <div className="lg:w-1/2">
               <Image src={News1} width={650} height={400} alt="" />
               <p className="font-medium">
                 Vancouver, BC, Canada – May 25, 2021
@@ -174,7 +168,7 @@ export default function Home() {
                 Investing News Network
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <Image src={News1} width={650} height={400} alt="" />
               <p className="font-medium">
                 Vancouver, BC, Canada – May 25, 2021

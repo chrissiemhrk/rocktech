@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" bg-black text-white w-full py-8 px-52">
-      <div className="flex justify-between">
+    <footer className=" bg-black text-white w-full py-8 px-3 lg:px-52">
+      <div className="flex flex-col lg:flex-row justify-between">
         <div>
           <div className="relative w-32 h-7">
             <svg

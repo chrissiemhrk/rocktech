@@ -21,10 +21,10 @@ const About = () => {
           </p>
         </section>
         <section className="grid-section relative white-background h-96 mb-10 px-3 lg:px-32">
-          <div className="absolute top-0 left-1/2">
+          <div className="absolute top-0 left-1/4 lg:left-1/2  w-64 lg:w-fit">
             <Image src={AboutImg2} width={600} height={500} alt="" />
           </div>
-          <div className="absolute left-1/4 top-1/3">
+          <div className="absolute left-1/6 lg:left-1/3 top-1/3 w-64 lg:w-fit">
             <Image src={AboutImg1} width={600} height={400} alt="" />
           </div>
         </section>
@@ -38,10 +38,10 @@ const About = () => {
           </p>
         </section>
         <section className="grid-section relative white-background h-96 mb-10 px-3  lg:px-32">
-          <div className="absolute top-0 left-1/2 z-10">
+          <div className="absolute top-0 left-1/3 lg:left-1/2 z-10 w-64 lg:w-fit">
             <Image src={AboutImg3} width={600} height={500} alt="" />
           </div>
-          <div className="absolute left-1/4 -top-1/2">
+          <div className="absolute left-1/6 lg:left-1/3 -top-1/2 w-64 lg:w-fit">
             <Image src={AboutImg4} width={500} height={800} alt="" />
           </div>
         </section>

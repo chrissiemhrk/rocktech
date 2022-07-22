@@ -13,12 +13,12 @@ const Sustainability = () => {
         <section className="heroSust px-52 text-white"></section>
         <section className="px-3 lg:px-32 mt-10">
           <h2 className="pl-20 uppercase">Sustainability</h2>
-          <p className=" text-3xl lg:text-5xl lg:text-8xl font-thin">
+          <p className=" text-3xl  lg:text-8xl font-thin">
             No lithium. No batteries. No electric cars. No clean future.
           </p>
         </section>
         <section className="px-3 lg:px-32 mt-40 mb-80">
-          <p className="text-3xl lg:text-3xl lg:text-5xl font-thin leading-snug">
+          <p className="text-3xl lg:text-3xl  font-thin leading-snug">
             We will produce battery-grade lithium with the lowest possible
             environmental impact, using materials obtained in full respect of
             human rights as well as social and ecological standards. We believe

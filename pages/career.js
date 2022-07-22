@@ -5,7 +5,7 @@ import Header from "../components/header";
 import Career1 from "../public/images/career-1.png";
 import Career2 from "../public/images/career-2.png";
 
-const Sustainability = () => {
+const Career = () => {
   return (
     <>
       <Header />
@@ -236,4 +236,4 @@ const Sustainability = () => {
   );
 };
 
-export default Sustainability;
+export default Career;

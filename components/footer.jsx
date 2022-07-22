@@ -106,7 +106,6 @@ const Footer = () => {
           </p>
           <div className="pt-24">
             <input
-              value=""
               className="bg-transparent border  border-white rounded-full lg:w-50 text-center h-13 text-2xl font-light leading-loose tracking-wider w-full"
               placeholder="Enter your mail address"
             />

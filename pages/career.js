@@ -18,10 +18,10 @@ const Sustainability = () => {
           </p>
         </section>
         <section className="px-3 lg:px-32 my-32 bg-green-500 text-white py-52 relative">
-          <div className="absolute w-96 h-96 -top-40 left-1/2">
+          <div className="absolute lg:w-96 h-96 -top-40 left-1/2  w-44">
             <Image src={Career2} width={800} height={700} alt="" />
           </div>
-          <div className="absolute w-80 h-96 -top-80 left-1/3">
+          <div className="absolute lg:w-80 h-96 -top-80 lg:left-1/3 w-56">
             <Image src={Career1} width={500} height={700} alt="" />
           </div>
           <p className="text-3xl font-thin leading-snug">
